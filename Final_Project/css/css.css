@@ -1,0 +1,105 @@
+/* Header Styling */
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .search-bar {
+    flex: 1;
+  }
+  
+  .search-bar form {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Sidebar Navigation */
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Main Content Styling */
+  .container {
+    padding: 20px;
+  }
+  
+  .student-data table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-data th, .student-data td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-data tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-data tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .apply-btn {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Popup Styling */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  

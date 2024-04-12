@@ -1,0 +1,292 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #0219327e;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+.search-bar input[type="text"] {
+  width: 60%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.search {
+  margin-left: 600px; /* Adjust the margin as needed */
+  margin-top: -32.8px;
+}
+
+.search button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:#021932;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #021932a5;
+}
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.user-info ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.user-info li {
+  margin-right: 1rem;
+}
+
+.user-info  .material-symbols-outlined {
+  vertical-align: middle; 
+  margin-right: 8px; 
+}
+
+.user-info a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #021932;
+  transition: background-color 0.2s ease;
+}
+
+.user-info a:hover {
+  background-color:#021932a5;
+}
+
+
+
+.sidebar {
+  position: fixed;
+  top: 62.5px;
+  left: 0;
+  width: 250px;
+  background-color: #021932;
+  color: white;
+  height: calc(100vh - 60px); 
+  overflow-y: auto; 
+}
+
+
+.sidebar ul {
+  margin-top: 10px;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.sidebar a {
+  display: inline-block; 
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+
+.sidebar .material-symbols-outlined {
+  vertical-align: middle; 
+  margin-right: 8px; 
+}
+
+.sidebar li {
+  display: block;
+}
+
+
+.sidebar a:hover {
+  background-color: #16395e;
+}
+
+.content {
+  width: 80%;
+  float: right;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-left: 285px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  margin-bottom: 20px;
+  margin-left: 280px;;
+}
+
+.search-box {
+  flex: 1; /* Take up remaining space */
+  margin-right: 10px;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.search-btn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:#021932;
+  color: #fff;
+  cursor: pointer;
+  margin-right: -20px;
+  
+}
+
+
+/* Student Data Table */
+.student-data {
+  margin-top: 20px;
+  
+}
+
+.student-data table {
+  margin: 0 auto; 
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 280px;
+}
+
+th, td {
+  border: 1px solid #02193256;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.student-data table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 100px; /* Location of the box */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* 3D effect */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color:#0219327e;
+  color: white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  color: white;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/* Button Styling Specific to Modal */
+.modal-button {
+  background-color: #0219327e; /* Adjusted color */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.modal-button:hover {
+  opacity: 0.8;
+}

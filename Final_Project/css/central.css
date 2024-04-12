@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+
+  
+  header {
+    background-color: #ede6df;
+    color: #000000;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  
+  }
+  
+  .search-bar form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"],
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar input[type="text"] {
+    margin-right: 10px;
+    width: 200px; 
+  }
+  
+  .user-info {
+    margin-left: auto;
+  }
+  
+  .user-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-info ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .user-info ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .user-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-info ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  
+  
+  
+  main {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    position: fixed; 
+      margin-top: 0px;
+      top: 70;
+      left: 0; 
+      width: 250px;
+    background-color: #021932;
+    color: white;
+  
+    height: 100vh; 
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #16395e;
+  }
+  
+
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ede6df;
+    border-radius: 5px;
+  }
+  
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .search-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .search-btn {
+    margin-left: 10px;
+  }
+  
+  .search-btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8c4804;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .student-data {
+    margin-top: 20px;
+  }
+  
+  .student-data table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .student-data table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } 
+
+ 
+  

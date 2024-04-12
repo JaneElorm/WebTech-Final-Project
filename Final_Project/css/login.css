@@ -1,0 +1,78 @@
+/* Overall Styling */
+body {
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    /*background-color: #693502;*/
+    background-color: #0219327e;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    width: 400px;
+  }
+  
+  /* Login Form Styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group p {
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    border: 1px solid #021932;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn-primary {
+    background-color: #021932;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 15px;
+  }
+  
+  
+  /* Additional Links Styling */
+  .additional-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .additional-links p {
+    margin-bottom: 10px;
+  }
+  
+  .additional-links a {
+    color: #021932;
+    text-decoration: none;
+  }
+  h1 {
+    color: #021932;
+    margin: 0 auto;
+    width: fit-content;
+  }

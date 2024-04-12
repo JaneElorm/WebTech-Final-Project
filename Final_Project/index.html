@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main</title>
+  <style>
+    /* General styling */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      position: relative;
+      background-color: #0219327e; /* Changed background color */
+    }
+
+    /* Header */
+    header {
+      background-color: #021932; /* Adjusted background color */
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: flex-end; /* Adjusted alignment */
+      align-items: center;
+      position: relative;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Hero section */
+    .hero {
+      background-image: url("../Final_Project/images/hero.jpg");
+      background-size: cover;
+      background-position: center bottom; 
+      position: relative;
+      text-align: center;
+      padding: 230px 0; 
+      
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(114, 110, 110, 0.5);  
+
+    }
+
+   
+  
+
+    .hero h1 {
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: 3em;
+      color: #ffffff;
+      
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      color: #ffffff; 
+      
+    }
+
+    section {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    section h2 {
+      margin-bottom: 30px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: right;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    footer ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .social-media a {
+      color: #fff;
+      margin-left: 10px;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="../Final_Project/Login/register.php">Sign Up</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Welcome to SchoolFinder</h1>
+  <p>Exploring Education, Empowering Choice</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>At SchoolFinder, our focus is on guiding individuals through the process of selecting the right school. We're committed to providing </p>
+  <p>accessible resources and support to students, parents, and educators. Through our platform, users can explore a diverse range of </p>
+  <p>educational institutions, empowering them to make informed decisions that align with their goals. We believe in the transformative </p>
+  <p>impact of education on lives and communities, fostering a culture of collaboration and innovation along the way. Join us as we navigate </p>
+  <p>the world of education together, empowering choice and shaping futures.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+        <p><strong>School Search:</strong> Discover the ease of finding the right school for you with SchoolFinder.Utilize our intuitive search </p>
+        <p> feature to explore a diverse selection of educational institutions tailored to your specific needs and preferences.</p>
+      
+        <p><strong>Comparative Analysis:</strong> Make informed decisions with our comparative analysis tool. Evaluate schools side by side based</p> 
+            <p>on various criteria such as academic programs, facilities, location, and more.</p>
+        <p><strong>Guidance and Support:</strong> Benefit from personalized guidance and support from our team of experts. They are dedicated to assisting you at every step of the school selection process, from initial exploration to enrollment.</p>
+      </li>
+    </ul>
+  </section>
+  
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Feel free to reach out to us with any questions or inquiries.</p>
+  <p>0242362356</p>
+  </form>
+</section>
+
+<footer>
+  <ul>
+    <li>SchoolFinder 2024</li>
+  </ul>
+
+</footer>
+
+</body>
+</html>
