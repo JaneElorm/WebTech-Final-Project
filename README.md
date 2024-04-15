@@ -2,5 +2,5 @@
 School selection system for Junior high school students
 
 DEFAULT ADMIN
-EMAIL: esthergasua@gmail.com
+EMAIL: esthergasu@gmail.com
 PASSWORD: _.Esther_123
